@@ -1,0 +1,4 @@
+name: mcbor
+source: paper
+reference: see nl2t/baselines/mcbor.py header
+default_params: {}

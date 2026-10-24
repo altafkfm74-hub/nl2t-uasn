@@ -1,0 +1,4 @@
+name: rss_aol
+source: paper
+reference: see nl2t/baselines/rss_aol.py header
+default_params: {}

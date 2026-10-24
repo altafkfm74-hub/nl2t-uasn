@@ -1,0 +1,4 @@
+name: rl_mac
+source: paper
+reference: see nl2t/baselines/rl_mac.py header
+default_params: {}

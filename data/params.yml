@@ -1,0 +1,53 @@
+deployment:
+  W: 2000.0
+  H: 2000.0
+  D: 100.0
+nodes:
+  n: 100
+  anchor_frac: 0.15
+  drift_mps: 0.05
+sim:
+  duration_s: 3800
+  dt: 1.0
+  runs: 50
+phy:
+  c0_mps: 1500.0
+  B_hz: 10000.0
+  f_khz: 18.0
+  N0_dbm_per_hz: -100.0
+mac:
+  csma: true
+arq:
+  max_tx: 4
+energy:
+  E0_J: 100.0
+  E_threshold: 20.0
+  E_th_pf: 10.0
+  P_tx_W: 2.0
+  P_rx_W: 0.75
+  P_idle_W: 0.10
+  V_supply: 3.3
+  I_MP_active_mA: 10.0
+  I_MP_idle_mA: 9.5
+  I_MP_sleep_mA: 0.65
+  I_RL_tx_mA: 30.0
+  I_RL_rx_mA: 28.0
+  I_RL_idle_mA: 28.0
+  I_RL_sleep_mA: 0.05
+  I_SC_active_mA: 0.5
+  I_wake_mA: 12.0
+  modem_wake_ms: 133
+cusum:
+  P_FA: 1.0e-3
+  Delta: 0.5
+  alpha: 0.3
+  lambda: 2.0
+  sigma: 1.0
+  kappa: 0.25
+  c: 1.0
+  h: 5.62
+ekf:
+  q_diag: 0.01
+  r_var: 25.0
+  pf_particles: 500
+  pf_sigma_meas: 1.0

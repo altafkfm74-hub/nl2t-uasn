@@ -1,0 +1,4 @@
+name: ebrec
+source: paper
+reference: see nl2t/baselines/ebrec.py header
+default_params: {}

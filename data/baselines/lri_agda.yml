@@ -1,0 +1,4 @@
+name: lri_agda
+source: paper
+reference: see nl2t/baselines/lri_agda.py header
+default_params: {}
