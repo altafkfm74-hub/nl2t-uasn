@@ -1,14 +1,19 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the paper."
+message: "If you use this software, please cite it as below."
 title: "NL2T: Co-Optimizing Localization Accuracy and Energy Efficiency for Adaptive Mobile Target Tracking in Underwater Acoustic Sensor Networks"
-authors:
-  - family-names: "Hussain"; given-names: "Altaf"
-    orcid: "https://orcid.org/0000-0001-7923-9652"
-  - family-names: "Li"; given-names: "Shuaiyong"
-  - family-names: "Jamjoom"; given-names: "Mona"
-  - family-names: "Ullah"; given-names: "Zahid"
-  - family-names: "Farhan"; given-names: "Ahasanul Haq"
-year: 2026
-version: "1.0.0"
+type: software
 license: MIT
-repository-code: "https://github.com/altafkfm74-hub/nl2t-uasn"
+version: "1.0.0"
+date-released: "2026-10-24"
+authors:
+  - family-names: Hussain
+    given-names: Altaf
+    orcid: "https://orcid.org/0000-0001-7923-9652"
+  - family-names: Li
+    given-names: Shuaiyong
+  - family-names: Jamjoom
+    given-names: Mona
+  - family-names: Ullah
+    given-names: Zahid
+  - family-names: Farhan
+    given-names: Ahasanul Haq
